@@ -262,7 +262,8 @@ public class BroadcastService extends Service {
 					xmlToIntent(stream);
 										
                 } catch (IOException e) {
-                    e.printStackTrace();
+					Log.d(LOG_TAG, "DEBUG_N: Exception From Server Thread");
+                	e.printStackTrace();
                 }
             }
         }).start();
