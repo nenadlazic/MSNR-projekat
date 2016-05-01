@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">IntentBroadcastTest</string>
+    <string name="test">Test</string>
+    <string name="address_hint">Remote Device IP Address</string>
+
+</resources>
